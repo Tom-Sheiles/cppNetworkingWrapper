@@ -14,3 +14,6 @@ objects/client.o: client/client.cpp
 
 clean:
 	rm ./build/* ./objects/*
+
+init:
+	mkdir build objects
